@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './pages/Home';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import CadastroONG from './pages/Cadastro/ONG';
+import CadastroVaga from './pages/Cadastro/Vaga';
+import CadastroVoluntario from './pages/Cadastro/Voluntario';
+
+
+const Pagina404 = () => ( <div>Página não encontrada 404</div> )
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Switch>
+    <Route path="/" component={ App } exact />
+    <Route path="/Cadastro/ONG" component={ CadastroONG } />
+    <Route path="/Cadastro/Voluntario" component={ CadastroVoluntario } />
+    <Route path="/Cadastro/Vaga" component={ CadastroVaga } />
+    <Route component={ Pagina404 } />
+  </Switch>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
