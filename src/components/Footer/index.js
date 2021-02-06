@@ -3,10 +3,19 @@ import styled from 'styled-components';
 const Footer = styled.div`
     width: 100vw;
     height: 20vh;
-    background: blue; 
-    position: absolute;
+    background: rgba(0,0,0,0.5); 
+    position: static;
+    color: white;
     bottom: 0;
     left: 0;
 `;
 
-export default Footer; 
+function Footer_Component() {
+    return (
+        <Footer>
+            
+        </Footer>
+    )
+}
+
+export default Footer_Component; 

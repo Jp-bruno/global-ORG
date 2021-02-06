@@ -1,24 +1,28 @@
-import Header from '../Header';
-import Footer from '../Footer';
+import Header_Component from '../Header';
+import Footer_Component from '../Footer'; 
+import Search from '../Search';
 import styled from 'styled-components';
 
 const Main = styled.main`
-    background-color: var(--black);
+    display: flex;
+    background-color: rgb(222,222,255);
     color: var(--white);
     flex: 1;
-    padding-top: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
+    height: 100vh;
+    width: 100vw;
 `;
 
-function PageDefault({ children }) {
+function PageDefault() {
     return (
         <>
-            <Header />
+            <Header_Component />
                 <Main>
-                    { children }
+                    {/* <Banner /> */}
+                    <Search />
+
+                    {/* <Cards_section /> */}
                 </Main>
-            <Footer />
+            <Footer_Component />
         </>
     );
 };

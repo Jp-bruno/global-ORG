@@ -13,7 +13,7 @@ const Pagina404 = () => ( <div>Página não encontrada 404</div> )
 ReactDOM.render(
   <BrowserRouter>
   <Switch>
-    <Route path="/" component={ App } exact />
+    <Route path="/" component={ App } exact /> 
     <Route path="/Cadastro/ONG" component={ CadastroONG } />
     <Route path="/Cadastro/Voluntario" component={ CadastroVoluntario } />
     <Route path="/Cadastro/Vaga" component={ CadastroVaga } />
