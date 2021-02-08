@@ -5,7 +5,7 @@ const Menu_item = styled.li`
     align-items: center;
 
     & a {
-        color: white;
+        color: #1F8EC4;
         text-decoration: none;
     }
 `;

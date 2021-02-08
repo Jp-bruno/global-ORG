@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  background-image: linear-gradient(45deg, #392f5a, #424874);
+  background-size: 100%;
+  /* animation-name: gradient;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; */
+}
+
+/* @keyframes gradient {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 100%;
+  }
+} */

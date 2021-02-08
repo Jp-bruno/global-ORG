@@ -4,7 +4,7 @@ import PageDefault from '../../components/PageDefault'
 function Home() {
     return(
         <>
-            <PageDefault style={{maxWidth : '100vw'}}>
+            <PageDefault>
                 
             </PageDefault>
         </>

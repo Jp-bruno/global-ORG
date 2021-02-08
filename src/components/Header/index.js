@@ -5,7 +5,7 @@ import Logo_Component from '../Logo';
 const Header = styled.div`
     width: 100vw;
     height: 20vh;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.0);
     color: white; 
     position: absolute;
     top: 0;

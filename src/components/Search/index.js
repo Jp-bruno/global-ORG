@@ -12,6 +12,7 @@ const Span = styled.span`
     margin: calc(20vh + 50px) auto;
     border-radius: 25px;
     border: solid 2px black;
+    background-color: #1F8EC4;
 
     & button {
         padding: 5px 15px 0 10px;
@@ -24,15 +25,17 @@ const Span = styled.span`
 const Search = styled.input`
         display: inline-block;
         position: relative;
-        left: -6.9px;
+        left: -5.5px;
         font-size: 1.7rem;
         min-width: 300px;
         width: 37vw;
         padding: 7px 15px;
         border-radius: 25px;
-        background-color: rgba(0,0,0,0.2);  
+        background-color: white;  
+        box-sizing: padding-box;
         border: none;
-        outline: none; 
+        outline: none;
+        height: 2rem;
 
         ::placeholder {
             color: rgba(55,55,55,0.3)
