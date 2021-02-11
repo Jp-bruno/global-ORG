@@ -23,8 +23,6 @@ function PageDefault() {
             <Main>
                 <Banner_Component />
 
-                <Section_botoes />
-
                 {/* <Cards_Section_Component /> */}
 
                 {/* <Vagas_destaque /> */}
