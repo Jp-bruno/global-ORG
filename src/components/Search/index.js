@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Span = styled.span`
+const Form = styled.form`
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@ const Span = styled.span`
     width: 40vw;
     height: 2.85rem;
     padding: 0 0 0 5px;
-    margin: calc(20vh + 50px) auto;
+    margin: calc(20vh + 150px) auto;
     border-radius: 25px;
     border: solid 2px black;
     background-color: #1F8EC4;
@@ -45,7 +45,7 @@ const Search = styled.input`
 
 function Search_Component() {
     return (
-        <Span>
+        <Form>
             <Search placeholder='Pesquisar vagas'></Search>
             <button>
                 <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ function Search_Component() {
                 <line x1="10.6715" y1="16.8283" x2="5.7218" y2="21.7781" stroke="black"/>
                 </svg>
             </button>
-        </Span>
+        </Form>
     );
 }
 

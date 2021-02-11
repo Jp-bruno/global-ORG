@@ -19,6 +19,7 @@ function Menu_Component() {
         <Menu>
             <List>
                 <Menu_item texto='Início'/>
+                <Menu_item texto='Vagas'/>
                 <Menu_item texto='Quem somos'/>
                 <Menu_item texto='Nossas plataformas'/>
             </List>

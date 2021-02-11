@@ -1,6 +1,7 @@
 import Header_Component from '../Header';
 import Footer_Component from '../Footer'; 
 import Banner_Component from '../Banner';
+import Section_botoes from '../Section_botoes';
 import Cards_Section_Component from '../Cards_section';
 import styled from 'styled-components';
 
@@ -22,10 +23,14 @@ function PageDefault() {
             <Main>
                 <Banner_Component />
 
-                <Cards_Section_Component />
+                <Section_botoes />
+
+                {/* <Cards_Section_Component /> */}
+
+                {/* <Vagas_destaque /> */}
             </Main>
             
-            <Footer_Component />
+            {/* <Footer_Component /> */}
         </>
     );
 };

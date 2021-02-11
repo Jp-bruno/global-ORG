@@ -7,8 +7,9 @@ const Card_holder = styled.div`
     background-color: #edf2fb;
     margin: 35px;
     border-radius: 10px;
-    min-width: 20%;
+    min-width: 240px;
     max-width: 20%;
+    min-height: 280px;
     
     & img {
         width: 20%;
@@ -16,7 +17,7 @@ const Card_holder = styled.div`
     }
 
     & div {
-    box-sizing: padding-box;
+    box-sizing: border-box;
     border-top: solid 1px black;
     padding: 5px 35px 35px;
     }
