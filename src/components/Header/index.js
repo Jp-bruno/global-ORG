@@ -30,11 +30,11 @@ const Social = styled.span`
     top: -25px;
 
     a {
-        padding: 15px;
-        width: 7px;
+        padding: 10px 15px;
+        width: 15px;
         display: grid;
         place-items: center;
-        img {width: 17px;}
+        img {width: 15px;}
     }
 
     a:hover {

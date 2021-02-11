@@ -1,18 +1,21 @@
 import Header_Component from '../Header';
 import Footer_Component from '../Footer'; 
 import Banner_Component from '../Banner';
-import Section_botoes from '../Section_botoes';
-import Cards_Section_Component from '../Cards_section';
+import Div_categoria from '../div-categoria';
 import styled from 'styled-components';
 
 const Main = styled.main`
     display: flex;
     flex-direction: column;
-    background-color: rgb(222,222,255);
+    position: absolute;
+    z-index: -1;
+    background-color: #F0F5F7;
     color: var(--white);
     flex: 1;
     min-height: 100vh;
+    max-height: 100vh;
     max-width: 100vw;
+    min-width: 100vw;
 `;
 
 function PageDefault() {
@@ -23,7 +26,7 @@ function PageDefault() {
             <Main>
                 <Banner_Component />
 
-                {/* <Cards_Section_Component /> */}
+                <Div_categoria />
 
                 {/* <Vagas_destaque /> */}
             </Main>
