@@ -5,14 +5,15 @@ const Form = styled.form`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 400px;
-    max-width: 400px;
-    width: 40vw;
-    height: 43px;
+    min-width: 200px;
+    max-width: 285px;
+    min-height: 32px;
+    max-height: 32px;
     padding: 0 0 0 5px;
     place-self: center;
     border-radius: 25px;
     background-color: white;
+    border: solid 1px #3D98C4;
 
     & button {
         padding: 5px 15px 0 10px;
@@ -25,19 +26,17 @@ const Form = styled.form`
 const Search = styled.input`
         display: inline-block;
         position: relative;
-        left: -5.5px;
-        font-size: 1.3rem;
-        min-width: 300px;
-        max-width: 385px;
-        width: 37vw;
+        font-size: 16px;
+        min-width: 200px;
+        max-width: 285px;
         padding: 7px 15px;
         border-radius: 25px;
         background-color: white;  
         box-sizing: padding-box;
         border: none;
         outline: none;
-        min-height: 27px;
-        max-height: 27px;
+        min-height: 16px;
+        max-height: 16px;
 
         ::placeholder {
             color: rgba(55,55,55,0.3)

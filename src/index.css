@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.banner {
+  background-image: linear-gradient(to right,#4ECDC4,#FFE66D, #FF6B6B);
+  background-size: 700%;
+  animation-name: cool;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes cool {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+
+  100% {
+    background-position-x: 100%;
+    background-position-y: 100%;
+  }
+}

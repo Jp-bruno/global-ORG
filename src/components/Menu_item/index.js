@@ -5,12 +5,12 @@ const Menu_item = styled.li`
     align-items: center;
 
     a { 
+        overflow-x: hidden;
         position: relative;
-        max-height: 35px;
-        min-height: 35px;
+        min-height: 27px;
+        max-height: 27px;
         color: white;
         text-decoration: none;
-        overflow-X: hidden;
 
         :hover {
             :after {
@@ -23,11 +23,11 @@ const Menu_item = styled.li`
         position: relative;
         content: '';
         width: 100%;
-        height: 25px;
-        border-bottom: solid 1px white;
+        height: 23px;
+        border-bottom: solid 2px #11709E;
         position: absolute;
         transform: translateX(-200%);
-        transition: transform 0.3s ease;
+        transition: transform 0.5s ease;
     }
 `;
 
@@ -35,9 +35,11 @@ function Menu_item_Component(props) {
     return (
         <>
             <Menu_item>
+
                 <a href='#'>
                     {props.texto}
                 </a>
+
             </Menu_item>
         </>
     )

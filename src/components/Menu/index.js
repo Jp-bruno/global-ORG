@@ -2,27 +2,42 @@ import Menu_item from '../Menu_item';
 import styled from 'styled-components';
 
 const Menu = styled.nav`
-    margin-right: 20px;
+
 `;
 
 const List = styled.ul` 
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-itens: baseline;
-    height: 100%;
-    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+
+    li {
+        height: 100%;
+        margin: 0 15px;
+        display: grid;
+        place-items: center;
+        
+        a {
+            color: #11709E;
+            font-weight: 600;
+        }
+    }
 `;
 
 function Menu_Component() {
     return (
         <Menu>
             <List>
+                <Menu_item texto='Nossas plataformas'/>
                 <Menu_item texto='Quem somos'/>
                 <Menu_item texto='Quero ser voluntário'/>
                 <Menu_item texto='Para empresas'/>
-                <Menu_item texto='Sou uma ONG'/>
+                <Menu_item texto='Sou uma ONG' />
                 <Menu_item texto='Entrar' />
+                <Menu_item texto='Ajuda' />
             </List>
         </Menu>
     );
