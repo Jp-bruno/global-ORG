@@ -12,7 +12,8 @@ const Social = styled.div`
     justify-content: flex-end;
     align-items: center;
     background-color: rgba(17,112,158,1);
-    width: 100%;
+    min-width: 98.79vw;
+    max-width: 98.79vw;
 
     a {
         padding: 10px 15px;

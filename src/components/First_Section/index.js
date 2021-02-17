@@ -1,10 +1,14 @@
 import styled from 'styled-components';
+import banner_image from './imagens/banner_image.png';
+import causas from './imagens/Friends.png';
+import vagas from './imagens/Searching.png';
+import ongs from './imagens/Service.png';
+import habilidades from './imagens/Writing.png';
 
 const First = styled.section`
     box-sizing: border-box;
     background-color: #3D98C4;
-    min-height: 200vh;
-    
+    min-height: 125vh;
 `;
 
 const Texto = styled.div`
@@ -40,47 +44,79 @@ const Botao = styled.button`
     border: none;
     height: 48px;
     width: 160px;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0,0,0,0.6);
+    transition-property: box-shadow, transform;
+    transition-duration: 0.3s;
+
+
+    :hover {
+        transform: translate(5px, 5px);
+        box-shadow: none;
+    }
 
     p {
-        font-family: 'Merriweather', serif;
+        font-family: 'Merriweather Sans', sans-serif;
         font-weight: 600;
         font-size: 16px;
         color: white;
     }
 `;
 
-const Img = styled.img`
-
+const Img = styled.div`
+    width: 421px;
+    height: 421px;
+    background-image: url(${banner_image});
+    background-size: contain;
+    position: relative;
+    left: 55%;
+    top: 10vh;
 `;
 
 const Categoria = styled.div`
-    position: absolute;
+    position: relative;
     bottom: -150px;
     left: 50%;
+    width: 100%;
     text-align: center;
     transform: translateX(-50%);
     color: white;
 
+    h2 {
+        font-family: 'Merriweather Sans', sans-serif;
+        margin-bottom: 37px;
+    }
+
     ul {
-        margin-top: 40px;
         list-style-type: none;
         display: flex;
-        justify-content: space-evenly;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: end;
+        
 
         li {
+            overflow: hidden;
             width: 255px;
             height: 255px;
             margin: 0 15px;
             background-color:white;
             border-radius: 16px;
+            display: grid;
+            grid-template-rows: 70% 30%;
+            background-color: #F0F5F7;
+            cursor: pointer;
 
+            img {
+                margin: 15px auto;
+            }
+            
             a {
+                place-self: center;
                 text-decoration: none;
                 color: #11709E;
                 font-size: 20px;
                 font-weight: 900;
-                position: relative;
-                top: 200px;
             }
         }
     }
@@ -102,22 +138,22 @@ function First_Section() {
                 <h2>BUSQUE POR CATEGORIA DE INTERESSE</h2>
                 <ul>
                     <li>
-                        <img></img>
+                        <img src={vagas} alt='nao'></img>
                         <a href="#">Vagas</a>
                     </li>
 
                     <li>
-                        <img></img>
+                        <img src={ongs} alt='nao'></img>
                         <a href="#">ONGS</a>
                     </li>
 
                     <li>
-                        <img></img>
+                        <img src={causas} alt='nao'></img>
                         <a href="#">Causas</a>
                     </li>
 
                     <li>
-                        <img></img>
+                        <img src={habilidades} alt='nao'></img>
                         <a href="#">Habilidades</a>
                     </li>
                 </ul>

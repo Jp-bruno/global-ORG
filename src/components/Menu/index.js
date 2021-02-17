@@ -13,18 +13,6 @@ const List = styled.ul`
     align-items: center;
     margin: auto;
     padding: 0;
-
-    li {
-        height: 100%;
-        margin: 0 15px;
-        display: grid;
-        place-items: center;
-        
-        a {
-            color: #11709E;
-            font-weight: 600;
-        }
-    }
 `;
 
 function Menu_Component() {

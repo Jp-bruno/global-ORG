@@ -14,8 +14,8 @@ const Main = styled.main`
     flex: 1;
     min-height: 100vh;
     max-height: 100vh;
-    max-width: 100vw;
-    min-width: 100vw;
+    min-width: 98.79vw;
+    max-width: 98.79vw;
 `;
 
 function PageDefault() {
