@@ -1,7 +1,7 @@
 import Header_Component from '../Header';
 import Footer_Component from '../Footer'; 
-import Banner_Component from '../Banner';
-import Div_categoria from '../div-categoria';
+import First_Section from '../First_Section'; 
+import Social_Media from '../Social_Media'; 
 import styled from 'styled-components';
 
 const Main = styled.main`
@@ -14,21 +14,19 @@ const Main = styled.main`
     flex: 1;
     min-height: 100vh;
     max-height: 100vh;
-    max-width: 100vw;
-    min-width: 100vw;
+    min-width: 98.79vw;
+    max-width: 98.79vw;
 `;
 
 function PageDefault() {
     return (
-        <>
+        <>  
+            <Social_Media />
+            
             <Header_Component />
 
             <Main>
-                <Banner_Component />
-
-                <Div_categoria />
-
-                {/* <Vagas_destaque /> */}
+                <First_Section />
             </Main>
             
             {/* <Footer_Component /> */}
