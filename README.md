@@ -1,6 +1,9 @@
 ### Plataforma Global org
 A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
 
+- No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
+- Se houver qualquer erro lint é exibido no console.
+
 <br>
 
 #### In the project directory, you can run:
@@ -44,9 +47,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `yarn build` fails to minify
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-<br>
-
-### Informação importante
-- No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
-- Se houver qualquer erro lint é exibido no console.
