@@ -58,17 +58,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <br>
 
-# Colaboradores
+### Colaboradores
 Listar todos os colaboradores do projeto. 
 
 <br>
 
-# Tecnologias
+### Tecnologias
 React-js, jest, react-dom, nodejs
 
 <br>
 
-# Deseja Ajudar?
-- Leia nosso código de conduta :)
+### Deseja Ajudar?
+Leia nosso código de conduta :)
 
 <br>
