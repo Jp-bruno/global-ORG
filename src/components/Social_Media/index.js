@@ -1,6 +1,28 @@
 import styled from 'styled-components';
 import { fb, insta, wpp, Linkedin, Twitter, YouTube } from './Images'
 
+const ListaDeRedesSociais = [
+  { image: fb, link: "Facebook" },
+  { image: insta, link: "Instagram" },
+  { image: wpp, link: "Whatsapp" },
+  { image: Linkedin, link: "LinkedIn" },
+  { image: Twitter, link: "Twitter" },
+  { image: YouTube, link: "Youtube" }
+];
+    
+const ConsultarRedesSociais = () => {
+  let values = ListaDeRedesSociais.map(({ image, link }) => (
+    <li>
+      <a href={"#"+link}> <img src={image} /> {link} </a>
+    </li>
+  ));
+  return (
+    <>
+      <ul> {values} </ul>
+    </>
+  );
+};
+
 const Social = styled.div`
     display: flex;
     justify-items: space-around;
@@ -27,15 +49,10 @@ const Social = styled.div`
     }
 `;
 
-function Social_Media() {
+const Social_Media =()=> {
     return(
         <Social>
-            <a href='#'><img src={YouTube}></img></a>
-            <a href='#'><img src={Linkedin}></img></a>
-            <a href='#'><img src={insta}></img></a>
-            <a href='#'><img src={wpp}></img></a>
-            <a href='#'><img src={Twitter}></img></a>
-            <a href='#'><img src={fb}></img></a>
+            <ConsultarRedesSociais/>
         </Social>
     );
 }
