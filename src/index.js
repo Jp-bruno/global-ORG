@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import CadastroONG from "./pages/Cadastro/ONG";
 import CadastroVaga from "./pages/Cadastro/Vaga";
 import CadastroVoluntario from "./pages/Cadastro/Voluntario";
-import Pagina404 from "./pages/Pagina404/Pagina404";
+import Pagina404 from "./pages/Pagina404";
 
 ReactDOM.render(
   <BrowserRouter>
