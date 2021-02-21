@@ -2,6 +2,10 @@
 
 <img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png" width="200"/>
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+[![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/)
+
 <br>
 
 A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
