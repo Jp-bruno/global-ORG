@@ -1,14 +1,11 @@
 import React from 'react';
 import PageDefault from '../../components/PageDefault'
 
-function Home() {
+export default function Home() {
     return(
         <>
-            <PageDefault>
-                
+            <PageDefault>    
             </PageDefault>
         </>
     );
 };
-
-export default Home;
