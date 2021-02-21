@@ -12,11 +12,7 @@ Após esse comando, abra o seguinte endereço [http://localhost:3000](http://loc
 
 <br>
 
-### Comandos secundários
-
-<br>
-
-#### `yarn build`
+### `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -28,13 +24,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 <br>
 
-#### `yarn test`
+### `yarn test`
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 <br>
 
-#### `yarn eject`
+### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
