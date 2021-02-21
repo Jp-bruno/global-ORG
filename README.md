@@ -55,7 +55,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `yarn build` fails to minify
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<br>
+
 ### Colaboradores
+Listar todos os colaboradores do projeto. 
+
+<br>
+
+### Tecnologias
+React-js, jest, react-dom, nodejs
+
+<br>
 
 ### Deseja Ajudar?
 - Leia nosso código de conduta :)
+
+<br>
