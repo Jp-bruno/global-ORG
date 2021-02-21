@@ -18,7 +18,7 @@ const Main = styled.main`
     max-width: 98.79vw;
 `;
 
-function PageDefault() {
+const PageDefault =()=> {
     return (
         <>  
             <Social_Media />
