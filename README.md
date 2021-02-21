@@ -18,7 +18,7 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 <br>
 
 ### Estrutura de Pastas
-
+#
 ```
 ├── public
   ├── components
