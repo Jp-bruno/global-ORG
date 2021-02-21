@@ -4,7 +4,7 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 #### In the project directory, you can run:
 
 #### `yarn start`
-Runs the app in the development mode, Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. Esse é o modo de desenvolvedor, qualquer alteração a página carregada.
 
 ### Comandos secundários
 
