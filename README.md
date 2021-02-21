@@ -20,10 +20,23 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 ## Estrutura de arquivos
 
 ```
-src\
- - \components\
- - \pages\
- - \public
+├── public
+  ├── components
+  |   ├── arquivo.js
+  |   └── etc.js
+├── src
+  |   ├── components
+  |   │   ├── _home.js
+  |   │   ├── _departamento.js
+  |   │   ├── _categoria.js
+  |   │   ├── _produto.js
+  |   │   └── _institucional.js
+  |   ├── pages
+  |   │   ├── _home.js
+  |   │   ├── _departamento.js
+  |   │   ├── _categoria.js
+  |   │   ├── _produto.js
+  |   │   └── _institucional.js
 ```
 
 <br>
