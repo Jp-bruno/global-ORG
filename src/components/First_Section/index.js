@@ -21,7 +21,7 @@ const ListaDeInteresses = [
 const ConsultarListaDeInteresses = () => {
   let values = ListaDeInteresses.map(({ image, link }) => (
     <li>
-      <img src={image} /> <a href={"#" + link}> {link} </a>
+      <img src={image} /> <a href={"#"+link}> {link} </a>
     </li>
   ));
   return (
