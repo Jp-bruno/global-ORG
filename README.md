@@ -1,23 +1,99 @@
-# Getting Started with Create React App
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Plataforma Global org
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png" width="170"/>
+
+<br>
+
+A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
+
+<br>
+
+- No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
+- Se houver qualquer erro lint é exibido no console.
+
+<br>
+
+### Estrutura de Pastas
+
+```
+├── public
+  ├── components
+  |   ├── arquivo.js
+  |   └── etc.js
+├── src
+  |   ├── components
+  |   │   ├── First_Section
+  |   |   |  ├── imagens
+  |   |   |  |  ├── Friends.png
+  |   |   |  |  ├── Searching.png
+  |   |   |  |  ├── Service.png
+  |   |   |  |  ├── Writing.png
+  |   |   |  |  ├── banner_image.png
+  |   |   |  ├── index.js
+  |   |   |  ├── Images.js
+  |   │   ├── Menu
+  |   |   |  ├── index.js
+  |   │   ├── Menu_item
+  |   |   |  ├── index.js
+  |   │   ├── Footer
+  |   |   |  ├── index.js
+  |   │   ├── Logo
+  |   |   |  ├── index.js
+  |   |   |  ├── global-logo.png
+  |   |   |  ├── global-logo.jpg
+  |   │   ├── Search
+  |   |   |  ├── index.js
+  |   │   ├── Social_Media
+  |   |   |  ├── index.js
+  |   │   ├── PageDefault
+  |   |   |  ├── index.js
+  |   │   ├── Header
+  |   |   |  ├── index.js
+  |   ├── pages
+  |   │   ├── Cadastro
+  |   |   |  ├── ONG
+  |   |   |  |  ├── index.js  
+  |   |   |  ├── Vaga
+  |   |   |  |  ├── index.js
+  |   |   |  ├── ONG
+  |   |   |  |  ├── index.js  
+  |   |   |  ├── Voluntario
+  |   |   |  |  ├── index.js
+  |   │   ├── Home
+  |   |   |  ├── index.js
+  |   │   ├── Login
+  |   |   |  ├── ONG
+  |   |   |  |  ├── index.js  
+  |   |   |  ├── Voluntario
+  |   |   |  |  ├── index.js
+  |   │   ├── Perfil
+  |   |   |  ├── ONG
+  |   |   |  |  ├── index.js  
+  |   |   |  ├── Voluntario
+  |   |   |  |  ├── index.js
+  |   ├── pages
+  |   │   ├── _home.js
+  |   │   ├── _departamento.js
+  |   │   ├── _categoria.js
+  |   │   ├── _produto.js
+  |   │   └── _institucional.js
+```
+
+<br>
+
+### Com o diretório do projeto, utilize o comando :  
+#
+
+<br>
 
 ### `yarn start`
+Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
 ### `yarn build`
 
@@ -29,42 +105,34 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `yarn test`
+Launches the test runner in the interactive [watch mode running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Colaboradores
+Listar todos os colaboradores do projeto. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
 
-## Learn More
+### Tecnologias
+React-js, jest, react-dom, nodejs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Deseja Ajudar em alguma coisa?
+Leia nosso código de conduta :)
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Tem alguma dúvida?
+Consulte nossa wiki.
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Algum recurso, problema, correção, melhoria?
+Envie para issues, pull request.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
