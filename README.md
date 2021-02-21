@@ -1,12 +1,20 @@
 ### Plataforma Global org
 A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
 
+<br>
+
 #### In the project directory, you can run:
+
+<br>
 
 #### `yarn start`
 Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. 
 
+<br>
+
 ### Comandos secundários
+
+<br>
 
 #### `yarn build`
 
@@ -18,9 +26,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+<br>
+
 #### `yarn test`
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+<br>
 
 #### `yarn eject`
 
@@ -32,13 +44,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+<br>
+
 ### `yarn build` fails to minify
-```
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-```
+
+<br>
 
 ### Informação importante
 - No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
 - Se houver qualquer erro lint é exibido no console.
-
-
