@@ -112,7 +112,7 @@ Listar todos os colaboradores do projeto.
 <br>
 
 ### Tecnologias
-React-js, jest, react-dom, nodejs
+React-js, jest, react-dom, nodejs, lint
 
 <br>
 
