@@ -65,6 +65,6 @@ Consulte nossa wiki.
 <br>
 
 ### Algum recurso, problema, correção, melhoria?
-Envie para issues.
+Envie para issues, pull request.
 
 <br>
