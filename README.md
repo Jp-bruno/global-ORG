@@ -13,12 +13,12 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 
 <br>
 
-#### Com o diretório do projeto, utilize o comando :
+### Com o diretório do projeto, utilize o comando :
 #
 
 <br>
 
-#### `yarn start`
+### `yarn start`
 Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. 
 
 <br>
