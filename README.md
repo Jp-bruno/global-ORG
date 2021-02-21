@@ -1,6 +1,6 @@
 ## Plataforma Global org
 
-<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png"/>
+<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png" width="200"/>
 
 <br>
 
