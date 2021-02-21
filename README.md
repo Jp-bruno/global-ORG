@@ -72,7 +72,13 @@ React-js, jest, react-dom, nodejs
 
 <br>
 
-### Deseja Ajudar?
+### Deseja Ajudar em alguma coisa?
 Leia nosso código de conduta :)
+
+<br>
+
+### Tem alguma dúvida?
+Consulte nossa wiki.
+
 
 <br>
