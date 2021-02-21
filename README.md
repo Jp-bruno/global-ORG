@@ -43,12 +43,20 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
   |   |   |  ├── index.js
   |   │   ├── Logo
   |   |   |  ├── index.js
-  |   |   |  ├── global-logo.png
-  |   |   |  ├── global-logo.jpg
+  |   |   |  ├── img
+  |   |   |  |  ├── global-logo.png
+  |   |   |  |  ├── global-logo.jng
   |   │   ├── Search
   |   |   |  ├── index.js
   |   │   ├── Social_Media
   |   |   |  ├── index.js
+  |   |   |  ├── img
+  |   |   |  |  ├── FB.png
+  |   |   |  |  ├── IG.jng
+  |   |   |  |  ├── LinkedIn.png
+  |   |   |  |  ├── Twitter.jng
+  |   |   |  |  ├── WPP.jng
+  |   |   |  |  ├── YouTube.jng
   |   │   ├── PageDefault
   |   |   |  ├── index.js
   |   │   ├── Header
