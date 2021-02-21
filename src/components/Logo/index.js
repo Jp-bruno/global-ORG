@@ -11,11 +11,9 @@ const Logo = styled.div`
     place-self: center;
 `;
 
-function Logo_Component() {
+const Logo_Component =()=> {
     return(
-        <>
-            <Logo />
-        </>
+        <> <Logo /> </>
     );
 }
 
