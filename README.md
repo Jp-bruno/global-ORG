@@ -90,10 +90,7 @@ Após esse comando, abra o seguinte endereço [http://localhost:3000](http://loc
 <br>
 
 ### `yarn build`
-
-O processo de compilar o aplicativo para produção fica na pasta `build`.\
-Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho.\
-
+Ao utilizar esse comando, o React fica no modo de produção. O processo de compilação do aplicativo fica na pasta `build` e otimizado para um melhor desempenho.\ 
 A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
 Seu aplicativo está pronto para ser implantado!\
 
@@ -102,7 +99,7 @@ Consulte a seção sobre [deployment](https://facebook.github.io/create-react-ap
 <br>
 
 ### `yarn test`
-Inicie o este no [modo watching](https://facebook.github.io/create-react-app/docs/running-tests) para verificar os testes.
+Inicie o Teste no [modo watching](https://facebook.github.io/create-react-app/docs/running-tests) para verificar os testes.
 
 <br>
 
