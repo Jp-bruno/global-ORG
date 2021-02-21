@@ -1,0 +1,2 @@
+- Todo o código deve ser testado em ambiente local.
+- Após isso, todo o código deve ser testado em ambiente de teste.
