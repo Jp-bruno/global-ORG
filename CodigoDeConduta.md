@@ -5,6 +5,16 @@
 - Para qualquer alteração do código, crie um pull request. 
 - Depois de qualquer alteração, teste e corrija o código ou crie mais testes se necessário.
 
+<br>
+
+### Onde posso testar o código?
+- Codepen.io
+- Codesandbox.io
+- Repl.it
+- StackBlitz
+
+<br>
+
 ## Submiting a pull request
 
 1. Faça uma bifurcação *Fork*.
