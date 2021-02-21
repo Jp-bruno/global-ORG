@@ -71,6 +71,8 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
   |   |   |  |  ├── index.js  
   |   |   |  ├── Voluntario
   |   |   |  |  ├── index.js
+  |   |   |  ├── Pagina404
+  |   |   |  |  ├── Pagina404.js
   |   │   ├── Home
   |   |   |  ├── index.js
   |   │   ├── Login
