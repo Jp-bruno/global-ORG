@@ -130,6 +130,11 @@ Leia nosso código de conduta :)
 
 <br>
 
+### Recursos da Plataforma
+Dizer quais são os recursos da Plataforma
+
+<br>
+
 ### Tem alguma dúvida?
 Consulte nossa wiki.
 
