@@ -1,6 +1,5 @@
 ### Plataforma Global org
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
 
 #### In the project directory, you can run:
 
