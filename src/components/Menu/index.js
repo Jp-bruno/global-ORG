@@ -39,7 +39,7 @@ const List = styled.ul`
     padding: 0;
 `;
 
-function Menu_Component() {
+const Menu_Component =()=> {
     return (
       <VisualizarItensMenu/>
     );
