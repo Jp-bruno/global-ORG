@@ -1,12 +1,14 @@
 ### Plataforma Global org
 A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
 
+<br>
+
 - No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
 - Se houver qualquer erro lint é exibido no console.
 
 <br>
 
-#### In the project directory, you can run:
+#### Com o diretório do projeto, utilize o comando :
 
 <br>
 
