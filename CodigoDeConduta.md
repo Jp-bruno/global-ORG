@@ -15,6 +15,8 @@
 
 <br>
 
+#### A solicitação da máquina de teste é feita somente caso seja voluntário com restrita aprovação da equipe de Backend
+
 ## Submiting a pull request
 
 1. Faça uma bifurcação *Fork*.
