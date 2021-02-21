@@ -1,6 +1,30 @@
+/* eslint-disable react/jsx-pascal-case */
 import Menu_item from '../Menu_item';
 import styled from 'styled-components';
 
+const ItensMenu = [
+    { texto: "Nossas plataformas" },
+    { texto: "Quem somos" },
+    { texto: "Quero ser voluntário" },
+    { texto: "Para empresas" },
+    { texto: "Sou uma ONG" },
+    { texto: "Entrar" }
+];
+  
+  const VisualizarItensMenu= () => {
+    let values = ItensMenu.map(({texto}) => (
+      <List>
+        <Menu_item texto={texto}/>
+      </List>
+    ));
+    return (
+      <>
+        <Menu> {values} </Menu>
+      </>
+    );
+  };
+
+  
 const Menu = styled.nav`
 
 `;
@@ -17,17 +41,7 @@ const List = styled.ul`
 
 function Menu_Component() {
     return (
-        <Menu>
-            <List>
-                <Menu_item texto='Nossas plataformas'/>
-                <Menu_item texto='Quem somos'/>
-                <Menu_item texto='Quero ser voluntário'/>
-                <Menu_item texto='Para empresas'/>
-                <Menu_item texto='Sou uma ONG' />
-                <Menu_item texto='Entrar' />
-                <Menu_item texto='Ajuda' />
-            </List>
-        </Menu>
+      <VisualizarItensMenu/>
     );
 }
 
