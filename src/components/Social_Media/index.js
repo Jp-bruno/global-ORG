@@ -50,11 +50,11 @@ const Social = styled.div`
 `;
 
 const Social_Media =()=> {
-    return(
-        <Social>
-            <ConsultarRedesSociais/>
-        </Social>
-    );
-}
+  return (
+    <Social>
+      <ConsultarRedesSociais />
+    </Social>
+  );
+};
 
 export default Social_Media;
