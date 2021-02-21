@@ -102,7 +102,7 @@ Consulte a seção sobre [deployment](https://facebook.github.io/create-react-ap
 <br>
 
 ### `yarn test`
-Inicie o este no [modo watching] (https://facebook.github.io/create-react-app/docs/running-tests) para verificar os testes.
+Inicie o este no [modo watching](https://facebook.github.io/create-react-app/docs/running-tests) para verificar os testes.
 
 <br>
 
