@@ -4,7 +4,7 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 #### In the project directory, you can run:
 
 #### `yarn start`
-Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. Esse é o modo de desenvolvedor, qualquer alteração a página carregada.
+Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. 
 
 ### Comandos secundários
 
@@ -38,7 +38,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```
 
 ### Informação importante
-- The page will reload if you make edits.
-- You will also see any lint errors in the console.
+- No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
+- Se houver qualquer erro lint é exibido no console.
 
 
