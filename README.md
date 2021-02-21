@@ -17,7 +17,18 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 
 <br>
 
-### Com o diretório do projeto, utilize o comando :
+## Estrutura de arquivos
+
+```
+src\
+ - \components\
+ - \pages\
+ - \public
+```
+
+<br>
+
+### Com o diretório do projeto, utilize o comando :  
 #
 
 <br>
