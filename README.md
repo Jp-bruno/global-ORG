@@ -1,4 +1,9 @@
-### Plataforma Global org
+## Plataforma Global org
+
+<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png"/>
+
+<br>
+
 A Plataforma Global ORG foi desenvolvida através do [Create React App](https://github.com/facebook/create-react-app).
 
 <br>
