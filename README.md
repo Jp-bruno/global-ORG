@@ -14,6 +14,7 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 
 - No modo de desenvolvimento, qualquer alteração faz com que a página seja carregada.
 - Se houver qualquer erro lint é exibido no console.
+- É necessário ter o nodejs instalado junto com o banco de dados MongoDB.
 
 <br>
 
