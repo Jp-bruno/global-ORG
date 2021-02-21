@@ -1,6 +1,6 @@
 ## Plataforma Global org
 
-<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png" width="200"/>
+<img src="https://raw.githubusercontent.com/p9103/global-ORG/master/src/components/Logo/global-logo.png" width="170"/>
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
