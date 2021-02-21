@@ -13,12 +13,12 @@ A Plataforma Global ORG foi desenvolvida através do [Create React App](https://
 
 <br>
 
-#### Com o diretório do projeto, utilize o comando :
+### Com o diretório do projeto, utilize o comando :
 #
 
 <br>
 
-#### `yarn start`
+### `yarn start`
 Após esse comando, abra o seguinte endereço [http://localhost:3000](http://localhost:3000) para visualizar a Plataforma em seu navegador. 
 
 <br>
@@ -58,17 +58,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <br>
 
-# Colaboradores
+### Colaboradores
 Listar todos os colaboradores do projeto. 
 
 <br>
 
-# Tecnologias
+### Tecnologias
 React-js, jest, react-dom, nodejs
 
 <br>
 
-# Deseja Ajudar?
-- Leia nosso código de conduta :)
+### Deseja Ajudar?
+Leia nosso código de conduta :)
 
 <br>
