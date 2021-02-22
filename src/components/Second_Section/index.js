@@ -3,21 +3,33 @@ import Card from '../Card';
 import Botao from '../Botao_mais_vagas/index';
 
 const Second = styled.section`
-    min-height: 1030px;
-    max-height: 1030px;
+    min-height: 1100px;
+    max-height: 1100px;
     background-color: #F0F5F7;
     font-family: 'Merriweather Sans', sans-serif;
 `;
 
 const Title = styled.div`
-    margin: 3% 10% 0;
+    margin: 50px 140px;
+
+    @media(min-width: 1400px) {
+        {
+            margin: 50px 290px;
+        }
+    }
 `;
 
 const Cards_holder = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 65px;
+    justify-content: center;
+    margin: 0 6px;
+    max-width: 1350px;
+    min-width: 1350px;
+
+    @media(min-width: 1400px) {
+        margin: 0 155px;
+    }
 `;
 
 function Second_Section() {

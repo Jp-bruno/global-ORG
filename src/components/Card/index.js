@@ -2,22 +2,22 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
     display: grid;
-    max-width: 300px;
-    min-width: 300px;    
+    max-width: 340px;
+    min-width: 340px;    
     max-height: 360px;
     min-height: 360px;
     background-color: #11709E;
     border-radius: 16px;
     font-family: 'Merriweather', serif;
     box-shadow: 0px 8px 14px rgba(0,0,0,0.3);
-    margin: 15px 50px;
+    margin: 15px;
 
     img {
-        margin: 10px auto 0;
-        max-width: 265px;
-        min-width: 265px;
-        max-height: 150px;
-        min-height: 150px;
+        margin: 18px auto -10px;
+        max-width: 310px;
+        min-width: 310px;
+        max-height: 145px;
+        min-height: 145px;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
     }
@@ -67,7 +67,7 @@ const Canditatos = styled.span`
     width: 50px;
     background-color: #11709E;
     border-top-left-radius: 16px;
-    transform: translate(211px, -25px); 
+    transform: translate(252px, -27px); 
 `;
 
 function Card(props) {
