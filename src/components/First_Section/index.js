@@ -8,7 +8,8 @@ import habilidades from './imagens/Writing.png';
 const First = styled.section`
     box-sizing: border-box;
     background-color: #3D98C4;
-    min-height: 125vh;
+    min-height: 1000px;
+    max-height: 1000px;
 `;
 
 const Texto = styled.div`
@@ -48,7 +49,6 @@ const Botao = styled.button`
     box-shadow: 5px 5px rgba(0,0,0,0.6);
     transition-property: box-shadow, transform;
     transition-duration: 0.3s;
-
 
     :hover {
         transform: translate(5px, 5px);

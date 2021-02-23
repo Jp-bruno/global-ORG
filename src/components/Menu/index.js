@@ -2,7 +2,7 @@ import Menu_item from '../Menu_item';
 import styled from 'styled-components';
 
 const Menu = styled.nav`
-
+    justify-self: flex-end;
 `;
 
 const List = styled.ul` 
@@ -13,6 +13,8 @@ const List = styled.ul`
     align-items: center;
     margin: auto;
     padding: 0;
+    font-size: 14px;
+    
 `;
 
 function Menu_Component() {

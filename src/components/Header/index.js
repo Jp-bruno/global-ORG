@@ -13,11 +13,7 @@ const Header = styled.div`
     position: absolute;
     left: 0;
     display: grid;
-    grid-template-columns: 5% 20% 75%;
-    
-    span {
-        min-width: 200px;
-    }
+    grid-template-columns: 5% minmax(300px, 300px) 1fr;
 `;
 
 function Header_Component() {
