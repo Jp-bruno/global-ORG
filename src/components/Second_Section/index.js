@@ -28,7 +28,7 @@ const Cards_holder = styled.div`
     min-width: 1350px;
 
     @media(min-width: 1400px) {
-        margin: 0 155px;
+        margin: 0 auto;
     }
 `;
 
