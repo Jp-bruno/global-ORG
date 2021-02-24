@@ -2,6 +2,7 @@ import Header_Component from '../Header';
 import Footer_Component from '../Footer'; 
 import First_Section from '../First_Section';
 import Second_Section from '../Second_Section';
+import Third_Section from '../Third_Section';
 import Social_Media from '../Social_Media'; 
 import styled from 'styled-components';
 
@@ -29,6 +30,7 @@ function PageDefault() {
             <Main>
                 <First_Section />
                 <Second_Section />
+                <Third_Section />
             </Main>
             
             {/* <Footer_Component /> */}

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
     display: grid;
-    max-width: 340px;
-    min-width: 340px;    
+    max-width: 350px;
+    min-width: 350px;    
     max-height: 360px;
     min-height: 360px;
     background-color: #11709E;
@@ -67,7 +67,7 @@ const Canditatos = styled.span`
     width: 50px;
     background-color: #11709E;
     border-top-left-radius: 16px;
-    transform: translate(252px, -27px); 
+    transform: translate(256px, -27px); 
 `;
 
 function Card(props) {
