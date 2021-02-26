@@ -10,46 +10,99 @@ const Second = styled.section`
 `;
 
 const Title = styled.div`
-    margin: 50px 140px;
+    margin: 50px 140px -20px;
 
     h2 {
         color: #11709E;
     }
 
     @media(min-width: 1400px) {    
-        margin: 50px 294px;
+        margin: 50px 287px -20px;
     }
 `;
 
 const Cards_holder = styled.div`
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 20px;
-    max-width: 1350px;
-    min-width: 1350px;
+    padding: 25px;
+    width: 91.5%;
+    max-width: 1300px;
+    margin: 0 39.8px;
 
     @media(min-width: 1400px) {
-        margin: 0 174px;
+        margin: 0 164px;
     }
 `;
+
+const ConteudoCards = [
+    {
+        titulo: "Designer",
+        ong: "Associação Semeando Amor",
+        texto: "É da área de designer e quer transformar o mundo através da sua arte? Essa vaga é para você!",
+        local: "Curitiba - PR",
+        candidatos: "5/6"
+    },
+    {
+        titulo: "Voluntário(a) para Financeiro",
+        ong: "Projeto Ruas",
+        texto: "Buscamos voluntário(a) com para apoiar nos fluxos financeiros semanais. Vem com a gente!",
+        local: "Rio de Janeiro - RJ",
+        candidatos: "3/4"
+    },
+    {
+        titulo: "Mídias Sociais",
+        ong: "Biosaneamento",
+        texto: "Sabe produzir boas imagens e textos para redes sociais? Vem com a gente aumentar nossa visibilidade e impacto!",
+        local: "Manaus - AM",
+        candidatos: "3/5"
+    },
+    {
+        titulo: "Professor(a) de Informática",
+        ong: "Projeto Cerzinho",
+        texto: "Buscamos professor(a) de informática para apoiar nossos atendidos a se familiarizarem com técnologias básicas.",
+        local: "Brasil",
+        candidatos: "3/4"
+    },
+    {
+        titulo: "Professor(a) de Música",
+        ong: "Núcleo Sócio Cultural",
+        texto: "Buscamos voluntários para planejar e ministrar aulas de música para nossas crianças e adolescentes. Vamos juntos!",
+        local: "Maceió - AL",
+        candidatos: "2/3"
+    },
+    {
+        titulo: "Apoio Adm Financeiro",
+        ong: "Centro Cultural CB",
+        texto: "Fomos contemplados pela Lei Aldir Blanc e precisamos de apoio para a prestação de contas e de como dar a contra partida. Vamos juntos!",
+        local: "São Paulo - SP",
+        candidatos: "1/3"
+    }
+];
+
+const Cards = () => {
+    let Conteudo = ConteudoCards.map(({titulo, ong, texto, local, candidatos}, i) => {
+        i++
+        return <Card titulo={titulo} ong={ong} texto={texto} local={local} candidatos={candidatos} key={i} />
+    })
+
+    return (
+        <Cards_holder>
+            {Conteudo}
+        </Cards_holder>
+    )
+}
 
 function Second_Section() {
     return(
         <Second>
             <Title>
-                <h2>VAGAS MAIS RECENTES</h2>
-                <p>Tem um montão de vagas novas esperando por você!</p>
+                <h2>VAGAS DE VOLUNTARIOS EM DESTAQUE</h2>
+                <p>Dê uma olhada em nossas vagas em destaque!!</p>
             </Title>
 
-            <Cards_holder>
-                <Card titulo='Psicologo Voluntário' ong='ONG ESTRELA MILINHA' local='Santos - SP' texto='Buscamos psicólogos(as) voluntários(as) para atingir o desenvolvimento afetivo e emocional dos nossos atendidos, moradores da Vila Aliança.'/>
-                <Card titulo='Designer Gráfico' ong='ONG AVRA' local='Rio de Janeiro - RJ' texto='Você possui habilidades para utilizar os softwares de criação de imagem e manja de redes sociais? Faça parte da nossa equipe, se inscreva na vaga!'/>
-                <Card titulo='Designer de UI' ong='ONG Favela Inc' local='Manaus - AM' texto='Estamos desenvolvendo uma plataforma que conecta moradores de favelas a campanhas como doações, capacitações e oportunidades de trabalho.'/>
-                <Card titulo='Analista de Mídias Sociais' ong='ONG AVRA' local='Brasil' texto='É antenado(as) nos assuntos que rolam nas redes sociais? Então venha nos apoiar a cuidar dessas belezuras: as redes sociais da AVRA!'/>
-                <Card titulo='Ajude os animais' ong='Animal Equality' local='Maceió - AL' texto='Procuramos voluntários que queiram acabar com as práticas cruéis que acontecem com os animais na indústria de alimentícia por meio de ações on-line'/>
-                <Card titulo='Médico voluntário' ong='IAIDAM' local='Manaus - AM' texto='Precisamos de voluntários(as) médicos para trabalhar conosco pelo menos 1 vez por semana por 4 horas. Será incrível ter você conosco!'/>
-            </Cards_holder>
+            <Cards />
 
             <Botao>VER MAIS VAGAS</Botao>
         </Second>

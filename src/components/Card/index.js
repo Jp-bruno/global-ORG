@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
     display: grid;
+    grid-template-rows: 45% 10% 40% 5%;
     max-width: 350px;
     min-width: 350px;    
     max-height: 360px;
@@ -27,7 +28,7 @@ const Wrapper = styled.div`
         margin: 0 !important;
         color: white;
         width: 100%; 
-        transform: translateY(-24px);
+        transform: translateY(-20%);
 
 
         h3, p {
@@ -76,7 +77,7 @@ function Card(props) {
             <Wrapper>
                 <img url={props.imagem}></img>
                 <Canditatos>
-                    0/4
+                    {props.candidatos}
                 </Canditatos>
                 <div>
                     <h3>{props.titulo}</h3>

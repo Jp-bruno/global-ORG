@@ -1,15 +1,25 @@
 import styled from 'styled-components';
-import { Feminismo, Educacao, Ambiente, PCDs } from './imagens'; 
+import { Feminismo, Educacao, Ambiente, PCDs, Arrow } from './imagens'; 
 
 
 const Terceira = styled.div`
-    max-height: 512px;
-    min-height: 512px;
+    height: 500px;
     width: 100%;
     background-color: #3D98C4;
-`;
+    padding: 5px 0px;
 
-const Categoria = styled.div`
+    @media(min-width: 1400px) {
+        height: 540px;
+    }
+
+    p {
+        margin-top: 5px;
+
+        @media(min-width: 1400px) {
+            margin: 35px 280px;
+        }
+    }
+
     h2, p {
         font-family: 'Merriweather Sans', sans-serif;
         margin: 15px 140px;
@@ -32,11 +42,13 @@ const Categoria = styled.div`
             margin: 15px 290px;
         }
     }
+`;
 
+const Categoria = styled.div`
     ul {
         display: flex;
         margin: 0 80px;
-        max-width: 1148px;
+        width: 1140px;
 
         @media(min-width: 1400px) {
             margin: 15px 230px;
@@ -71,80 +83,119 @@ const Categoria = styled.div`
 `;
 
 const Filtro = styled.div`
-    max-width: 1120px;
-    min-width: 1120px;
-    margin: 25px 135px;
+    width: 50%;
+    margin: 20px 135px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin: 10px 0 20px 0;
+    }
 
     @media(min-width: 1400px) {
         margin: 35px 280px;
     }
 
-    p {
-        color: white;
+    div {
+        display: flex;
+        align-items: center;
+
+        select {
+            position: relative;
+            font-size: 18px;
+            padding: 10px 25px 10px 10px;
+            margin: 0 15px 0 0;
+            border-radius: 20px;
+            color: white;
+            background-color: #C75491;
+            
+            option {
+                margin: 50px 20px;
+            }
+        
+        }    
+
+        span {
+            position: relative;
+            right: 55px;
+            width: 34px;
+            height: 30px;
+            border-none;
+            border-radius: 20px;
+            background-color: #C75491;
+            background-image: url(${Arrow});
+            background-repeat: no-repeat;
+            background-position: center;
+            pointer-events: none;
+        }
+
+        select:focus-within + span {
+            transform: rotate(0.5turn);
+        }
+    
     }
 
-    select {
-        padding: 10px 25px;
-        margin: 0 15px 0 0;
-        border-radius: 20px;
-        color: white;
-        background-color: #C75491;
-    }
+
+
 `;
 
-const categorias = [
-    {src: Feminismo, txt: 'Feminismo'}, 
-    {src: Ambiente, txt: 'Meio Ambiente'}, 
-    {src: Educacao, txt: 'Educação'}, 
-    {src: PCDs, txt: 'PDCs'}
+const CategoriasConteudo = [
+    {src: Feminismo, txt: 'Feminismo', key: 1}, 
+    {src: Ambiente, txt: 'Meio Ambiente', key: 2}, 
+    {src: Educacao, txt: 'Educação', key: 3}, 
+    {src: PCDs, txt: 'PDCs', key: 4}
 ]
 
 const Categorias = () => {
-    let valores = categorias.map(({src, txt}) => {
-        return(
+    let valores = CategoriasConteudo.map(({src, txt, key}) => {
+        return (
             <>
-                <li>
-                    <img src={src}></img>
-                    <a href='#'>{txt}</a>
+                <li key={key}>
+                    <img src={src} />
+                    <a href={'#' + txt}>{txt}</a>
                 </li>
             </>
-        )
+        );
     });
 
     return ( 
         <ul>
             {valores}
         </ul>
-    )
+    );
 }
 
 function Third_Section() {
     return(
         <Terceira>
+            <h2>FILTRE POR VAGAS, ONGS E CAUSAS QUE MAIS COMBINAM COM VOCÊ!</h2>
+            <p>Confira as categorias mais acessadas abaixo</p>
             <Categoria>
-                <h2>FILTRE POR VAGAS, ONGS E CAUSAS QUE MAIS COMBINAM COM VOCÊ!</h2>
-                <p>Confira as categorias mais acessadas abaixo</p>
                 <Categorias />
             </Categoria>
-            
+
             <Filtro>
                 <p>Ou descubra outras causas e habilidades para se engajar:</p>
                 <div>
+                    <div>
                     <select name='causas'>
-                        <option value=''>Escolha uma causa</option>
-                        <option value='causa1'>Causa 1</option>
-                        <option value='causa2'>Causa 2</option>
-                        <option value='causa3'>Causa 3</option>
-                    </select>
-                </div>
+                            <option value=''>Escolha uma causa</option>
+                            <option value='causa1'>Causa 1</option>
+                            <option value='causa2'>Causa 2</option>
+                            <option value='causa3'>Causa 3</option>
+                        </select>
+                        <span></span>
+                    </div>
 
-                <div>
-                    <select name='habilidades'>
-                        <option value=''>Escolha uma habilidade</option>
-                        <option value=''>Habilidade 1</option>
-                        <option value=''>Habilidade 2</option>
-                        <option value=''>Habilidade 3</option>
-                    </select>
+                    <div>
+                        <select name='habilidades'>
+                            <option value=''>Escolha uma habilidade</option>
+                            <option value=''>Habilidade 1</option>
+                            <option value=''>Habilidade 2</option>
+                            <option value=''>Habilidade 3</option>
+                        </select>
+                        <span></span>
+                    </div>
                 </div>
             </Filtro>
         </Terceira>

@@ -20,11 +20,15 @@ const ListaDeInteresses = [
 ];
 
 const ConsultarListaDeInteresses = () => {
-  let values = ListaDeInteresses.map(({ image, link }) => (
-    <li>
-      <img src={image} /> <a href={"#"+link}> {link} </a>
-    </li>
-  ));
+  let values = ListaDeInteresses.map(({ image, link }, i) => {
+    i++
+    return (
+      <li key={i}>
+        <img src={image} /> <a href={"#"+link}> {link} </a>
+      </li>
+    )
+  });
+
   return (
     <>
       <ul> {values} </ul>
@@ -46,50 +50,65 @@ const BuscarPorCategoriaDeInteresse = () => {
 };
 
 const First = styled.section`
-  box-sizing: border-box;
   background-color: #3d98c4;
   min-height: 1000px;
 `;
 
 const Texto = styled.div`
   position: absolute;
-  top: 13%;
+  top: 20%;
   left: 10%;
   max-width: 40vw;
   display: flex;
   flex-direction: column;
   color: white;
+
+  @media(min-width: 1400px) {
+    top: 15%;
+    left: 17%;
+  }
+
   h1 {
     margin: 10px 0;
     font-size: 54px;
     font-weight: 900;
     line-height: 67px;
   }
+
   h2 {
     margin: 10px 0;
     font-size: 24px;
     font-weight: 400;
   }
+
   p {
     font-size: 21px;
   }
 `;
 
 const Acessar = styled.button`
+  position: relative;
+  left: -3px;
   background-color: #c75491;
   border-radius: 8px;
   border: none;
+  margin: 0;
   height: 48px;
   width: 160px;
   cursor: pointer;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
   transition-property: box-shadow, transform;
   transition-duration: 0.3s;
+  display: grid;
+  place-items: center;
+
   :hover {
     transform: translate(5px, 5px);
     box-shadow: none;
   }
+
   p {
+    margin: 0;
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -99,8 +118,8 @@ const Acessar = styled.button`
 
 
 const Img = styled.div`
-  width: 421px;
-  height: 421px;
+  width: 521px;
+  height: 521px;
   background-image: url(${banner_image});
   background-size: contain;
   position: relative;
@@ -110,22 +129,26 @@ const Img = styled.div`
 
 const Categoria = styled.div`
   position: relative;
-  bottom: -150px;
+  bottom: -70px;
   left: 50%;
   width: 100%;
   text-align: center;
-  transform: translateX(-50%);
+  transform: translateX(-52.5%);
   color: white;
+
   h2 {
     font-family: "Merriweather Sans", sans-serif;
-    margin-bottom: 37px;
+    margin: 0 -80px 37px 0;
   }
+
   ul {
     list-style-type: none;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: end;
+    width: 100%;
+
     li {
       overflow: hidden;
       width: 255px;
@@ -140,6 +163,7 @@ const Categoria = styled.div`
       img {
         margin: 15px auto;
       }
+
       a {
         place-self: center;
         text-decoration: none;
@@ -155,11 +179,11 @@ const First_Section = () => {
   return (
     <First>
       <Texto>
-        <h1>Comece um trabalho voluntário</h1>
+        <h1>Comece um <br /> trabalho voluntário</h1>
         <h2>Encontre formas de se engajar ativamente!</h2>
         <p>
-          A plataforma da Global.org existe para conectar organizações sem fins
-          lucrativos e pessoas que desejam apoiar suas causas.
+          A plataforma da Global.org existe para <br /> conectar organizações sem fins
+          lucrativos e <br /> pessoas que desejam apoiar suas causas.
         </p>
         <Acessar>
           <p>Quero Engajar!</p>

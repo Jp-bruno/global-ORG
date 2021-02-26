@@ -3,6 +3,8 @@ import Footer_Component from '../Footer';
 import First_Section from '../First_Section';
 import Second_Section from '../Second_Section';
 import Third_Section from '../Third_Section';
+import Fourth_Section from '../Fourth_Section';
+import Fifth_Section from '../Fifth_Section';
 import Social_Media from '../Social_Media'; 
 import styled from 'styled-components';
 
@@ -14,10 +16,8 @@ const Main = styled.main`
     background-color: #F0F5F7;
     color: var(--white);
     flex: 1;
-    min-height: 100vh;
-    max-height: 100vh;
-    min-width: 98.79vw;
-    max-width: 98.79vw;
+    height: 100vh;
+    width: 100vw;
 `;
 
 function PageDefault() {
@@ -31,6 +31,8 @@ function PageDefault() {
                 <First_Section />
                 <Second_Section />
                 <Third_Section />
+                <Fourth_Section />
+                <Fifth_Section />
             </Main>
             
             {/* <Footer_Component /> */}

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import seta from './arrow.png';
 
 const Button = styled.button`
-    margin: 50px 137px;
+    margin: 10px 0  0 133px;
     padding: 0px 17px;
     font-size: 19px;
     font-weight: 500;
@@ -18,9 +18,7 @@ const Button = styled.button`
     cursor: pointer;
 
     @media(min-width: 1400px) {
-        {
-            margin: 50px 290px;
-        }
+        margin: 50px 0 0 280px;
     }
 
     :after {
