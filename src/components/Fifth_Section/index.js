@@ -3,6 +3,7 @@ import Mundo from './imagens/mundo.png';
 import Seta from '../Botao_mais_vagas/arrow.png'
 
 const Quinta = styled.section`
+    position: relative;
     min-height: 497px;
     width: 100vw;
     background-color: #3D98C4;

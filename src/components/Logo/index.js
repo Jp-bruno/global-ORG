@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import logo from './global-logo.png'
+import { Logo_img } from './imagens';
 
 const Logo = styled.div`
     min-width: 40px;
     max-width: 40px;
     min-height: 40px;
     max-height: 40px;
-    background-image: url(${logo});
+    background-image: url(${Logo_img});
     background-size: contain;
     place-self: center;
 `;

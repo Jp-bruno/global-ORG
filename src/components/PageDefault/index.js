@@ -11,13 +11,12 @@ import styled from 'styled-components';
 const Main = styled.main`
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     z-index: -1;
     background-color: #F0F5F7;
     color: var(--white);
-    flex: 1;
-    height: 100vh;
     width: 100vw;
+    flex: 1;
 `;
 
 function PageDefault() {
@@ -35,7 +34,7 @@ function PageDefault() {
                 <Fifth_Section />
             </Main>
             
-            {/* <Footer_Component /> */}
+            <Footer_Component />
         </>
     );
 };

@@ -3,6 +3,7 @@ import { Feminismo, Educacao, Ambiente, PCDs, Arrow } from './imagens';
 
 
 const Terceira = styled.div`
+    position: relative;
     height: 500px;
     width: 100%;
     background-color: #3D98C4;

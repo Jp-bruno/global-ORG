@@ -3,6 +3,7 @@ import Card from '../Card';
 import Botao from '../Botao_mais_vagas/index';
 
 const Second = styled.section`
+    position: relative;
     min-height: 1100px;
     max-height: 1100px;
     background-color: #F0F5F7;

@@ -50,6 +50,7 @@ const BuscarPorCategoriaDeInteresse = () => {
 };
 
 const First = styled.section`
+  position: relative;
   background-color: #3d98c4;
   min-height: 1000px;
 `;
