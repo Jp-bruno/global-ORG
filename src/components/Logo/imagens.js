@@ -1,1 +1,0 @@
-export { default as Logo_img } from './imagens/global-logo.png';
